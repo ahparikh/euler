@@ -1,36 +1,54 @@
+import pprint
+
 def next_digit(number):
+  # Quick on-liner to take a number, square each digit, sum them together
+  # 145 -> 42
   return sum([int(digit)**2 for digit in str(number)])
 
-def test(number, number_chains):
-  if number in number_chains:
-    return None
+def next_action(number, cache):
+  # We skip the explicit check for 1 and 89 because we initialize the cache with
+  # that.
+  # Ret:
+  #  - 1 or 89: this number hits 1 or 89
+  #  - None: its not in cache, continue your chain
+  return cache.get(number, None)
 
-  return next_digit(number)
-
-def update_chains(chain, next, number_chains):
-  for i in range(len(chain) - 1):
-    number_chains[chain[i]] = (chain[i+1], next)
+def update_cache(chain, end_number, cache):
+  for i in chain:
+    cache[i] = end_number
 
 def main():
-  number_chains = {}
+  # if we want to be cleaner, make a class that owns the chain cache and all the
+  # number generation, next action, etc.
+  # number -> 1 or 89
+  chain_cache = {}
+  chain_cache[1] = 1
+  chain_cache[89] = 89
 
-  for i in range(1, 100):
-    if i in number_chains:
-      continue
+  cnt_89 = 0
 
-    chain = []
-    next = i
+  for i in range(1, 10000000):
+    cur_chain = []
+    nxt = i
+    end_number = None
 
-    while next is not None:
-      chain.append(next)
-      next = test(next, number_chains)
-
-      if 1 == next or 89 == next:
+    # Simulate a do ... while
+    while True:
+      end_number = next_action(nxt, chain_cache)
+      if end_number is not None:
         break
+      else:
+        cur_chain.append(nxt)
+        nxt = next_digit(nxt)
 
-    update_chains(chain, next, number_chains)
+    if 0 != len(cur_chain):
+      update_cache(cur_chain, end_number, chain_cache)
 
-  print number_chains
+    if 89 == end_number:
+      cnt_89 += 1
+
+  print cnt_89
+
 
 if __name__ == "__main__":
   main()
