@@ -21,6 +21,6 @@ Replace *problem_id* with the number.
 | [5](https://projecteuler.net/problem=5) | :heavy_minus_sign: | :heavy_minus_sign: |
 | [6](https://projecteuler.net/problem=6) | :heavy_minus_sign: | :heavy_minus_sign: |
 | [7](https://projecteuler.net/problem=7) | :heavy_minus_sign: | :heavy_minus_sign: |
-| [16](https://projecteuler.net/problem=16) | ::heavy_check_mark: | :heavy_minus_sign: |
-| [20](https://projecteuler.net/problem=20) | ::heavy_check_mark: | :heavy_minus_sign: |
+| [16](https://projecteuler.net/problem=16) | :heavy_check_mark: | :heavy_minus_sign: |
+| [20](https://projecteuler.net/problem=20) | :heavy_check_mark: | :heavy_minus_sign: |
 | [92](https://projecteuler.net/problem=92) | :heavy_check_mark: | :heavy_minus_sign: |
