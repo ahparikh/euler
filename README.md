@@ -14,13 +14,13 @@ Replace *problem_id* with the number.
 ## Progress
 | Problem | Python | Go | Notes |
 | --- | --- | --- | --- |
-| [1](https://projecteuler.net/problem=1) | :heavy_check_mark: | :heavy_minus_sign: |
-| [2](https://projecteuler.net/problem=2) | :heavy_check_mark: | :heavy_minus_sign: |
-| [3](https://projecteuler.net/problem=3) | :heavy_minus_sign: | :heavy_minus_sign: |
-| [4](https://projecteuler.net/problem=4) | :heavy_minus_sign: | :heavy_minus_sign: |
-| [5](https://projecteuler.net/problem=5) | :heavy_minus_sign: | :heavy_minus_sign: |
-| [6](https://projecteuler.net/problem=6) | :heavy_minus_sign: | :heavy_minus_sign: |
-| [7](https://projecteuler.net/problem=7) | :heavy_minus_sign: | :heavy_minus_sign: |
-| [16](https://projecteuler.net/problem=16) | :heavy_check_mark: | :heavy_minus_sign: |
-| [20](https://projecteuler.net/problem=20) | :heavy_check_mark: | :heavy_minus_sign: |
-| [92](https://projecteuler.net/problem=92) | :heavy_check_mark: | :heavy_minus_sign: |
+| [001](https://projecteuler.net/problem=1) | :heavy_check_mark: | :heavy_minus_sign: |
+| [002](https://projecteuler.net/problem=2) | :heavy_check_mark: | :heavy_minus_sign: |
+| [003](https://projecteuler.net/problem=3) | :heavy_minus_sign: | :heavy_minus_sign: |
+| [004](https://projecteuler.net/problem=4) | :heavy_minus_sign: | :heavy_minus_sign: |
+| [005](https://projecteuler.net/problem=5) | :heavy_minus_sign: | :heavy_minus_sign: |
+| [006](https://projecteuler.net/problem=6) | :heavy_minus_sign: | :heavy_minus_sign: |
+| [007](https://projecteuler.net/problem=7) | :heavy_minus_sign: | :heavy_minus_sign: |
+| [016](https://projecteuler.net/problem=16) | :heavy_check_mark: | :heavy_minus_sign: |
+| [020](https://projecteuler.net/problem=20) | :heavy_check_mark: | :heavy_minus_sign: |
+| [092](https://projecteuler.net/problem=92) | :heavy_check_mark: | :heavy_minus_sign: |
